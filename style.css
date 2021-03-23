@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(175, 63, 11);
+}
+
+rect:hover {
+    cursor: crosshair;
+}
+line{
+    stroke : rgb(100, 37, 7);
+    
+}
+.mur_noir {
+    stroke: black;
+}
+.mur_blanc {
+    stroke: white;
+}
+
+.case {
+    fill : white;
+    opacity : 0
+}
+.hov {
+    stroke: rgb(0, 0, 0);
+}
+.wall {
+    stroke: rgb(89, 164, 194);
+}
+
+.image{
+    position: absolute;
+    top: 15vh;
+    left: 60vh;
+    width: 500px;
+}
+
+.posi{
+    position: absolute;
+}
+
+.hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+#pion_blanc{
+    fill: white;
+}
+
+.button{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    top: 255px;
+    left: 600px;
+}
